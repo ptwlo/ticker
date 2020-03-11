@@ -19,14 +19,17 @@ span{
     font-weight: 800;
 }
 button{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin: 20px auto;
     border: 2px solid #BB8CDD;
     border-radius: 100%;
     display: block;
-    font-size: 3em;;
+    font-size: 1.2em;;
     padding: 25px;
     font-weight: 700;
     color: #314E59;
+}
+button:hover{
+  border: 2px solid yellow;
 }

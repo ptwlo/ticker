@@ -32,14 +32,14 @@ class Ticker extends Component {
   reset = ()=>{
     //this.state.count = 0;
    this.setState({
-     count: this.state.count = 0,
-   });
+     count: this.state.count = 0
+   })
   }
   render(){
     return(
       <>
         <p>The ticker number is: <span>{this.state.count}</span></p>
-        <button onCLick={this.state.reset} type="button">Reset Counter</button>
+        <button onCLick={this.reset}>Reset Counter</button>
       </>
     )
   }
