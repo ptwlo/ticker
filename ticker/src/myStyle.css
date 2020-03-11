@@ -1,0 +1,32 @@
+body{
+    background-color: #744D90;
+    color: #FFD53C;
+}
+p{
+    width: 40%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 3em;
+    padding: 25px;
+    border-bottom: 5px solid #BB8CDD;
+    border-radius: 8px;
+
+}
+span{
+    font-family: monospace;
+    font-size: 1.3em;;
+    color: #F0F0F0;
+    font-weight: 800;
+}
+button{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 2px solid #BB8CDD;
+    border-radius: 100%;
+    display: block;
+    font-size: 3em;;
+    padding: 25px;
+    font-weight: 700;
+    color: #314E59;
+}
